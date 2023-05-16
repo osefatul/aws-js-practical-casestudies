@@ -2,13 +2,16 @@
   "name": "src",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node IAMV2/updateAUser.js"
+    "start": "node IAMV3/DeleteUser.js"
+
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-iam": "^3.332.0",
     "aws-sdk": "^2.1378.0"
   }
 }

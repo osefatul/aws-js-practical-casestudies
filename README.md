@@ -12,7 +12,7 @@ aws configure
 ```
 - then, add access key, secret key and region... and you can find these data in `C://Users/userLogin/.aws`
 
-### Installing AWS SKD Version 2 for Javascript
+### Installing AWS SKD V2 for Javascript
 - Click [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/welcome.html) for more information.
 - Docs for installing sdk click [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/installing-jssdk.html)
   ```
@@ -65,4 +65,18 @@ iam.updateUser(params, (err, data)=>{
 })
 ```
 
-### Creating AWS Custom Policy with JS
+### Note: For more operations on IAM please go to `src/IAMV2` directory.
+
+
+### Installing IAM using SDK V3
+In V3, we have to separately use each service/package.
+
+```
+npm install @aws-sdk/client-iam
+```
+
+For practical example please visit `src/IAMV3` directory.
+
+
+## IAM with CloudShell
+CloudShell is a browser-based, pre-authenticated shell that you can launch directly from the AWS Management Console. 
