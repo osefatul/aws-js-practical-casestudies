@@ -2,14 +2,15 @@
   "name": "src",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node DynamodbV2/updateTable.js"
-
+    "start": "node DynamodbV3/writeBatch.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.332.0",
     "@aws-sdk/client-iam": "^3.332.0",
     "aws-sdk": "^2.1378.0"
   }

@@ -1,5 +1,8 @@
 # AWS in Javascript
 
+### Intro
+I started working with AWS SDK in Javascript when I was asked to start developing, testing and deploying IT applications with the the help of AWS. This course is about the most used AWS services for developers.
+
 ## IAM (Identity and Access Management)
 Specify who can access which services and resources.
 
