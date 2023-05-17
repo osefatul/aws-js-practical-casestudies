@@ -2,10 +2,9 @@
   "name": "src",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node IAMV3/DeleteUser.js"
+    "start": "node DynamodbV2/updateTable.js"
 
   },
   "author": "",
