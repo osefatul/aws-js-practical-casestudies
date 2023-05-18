@@ -83,3 +83,10 @@ For practical example please visit `src/IAMV3` directory.
 
 ## IAM with CloudShell
 CloudShell is a browser-based, pre-authenticated shell that you can launch directly from the AWS Management Console. 
+
+## DynamoDB
+Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability. [For more information click here](https://docs.aws.amazon.com/dynamodb/index.html). Also, for best practices go to `src/dynamodbV2|dynamodbV3` directories.
+
+
+## Amazon ElasticCache
+Amazon ElastiCache is a fully managed, Redis- and Memcached-compatible service delivering real-time, cost-optimized performance for modern applications. ElastiCache scales to hundreds of millions of operations per second with microsecond response time, and offers enterprise-grade security and reliability.
